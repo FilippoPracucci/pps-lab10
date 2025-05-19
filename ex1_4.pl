@@ -1,4 +1,4 @@
-% search_anytwo (Elem , List )
+% search_anytwo (Elem , List)
 
 search(X , cons (X , _)).
 search(X , cons (H, Xs)) :- H \= X, search (X , Xs).
